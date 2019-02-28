@@ -14,10 +14,19 @@ import static app.metahozierservice.data.ConstantLyrics.*;
 @EnableAutoConfiguration
 public class MetaHozierServiceApplication {
 
+    /**
+     * Application entry point
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(MetaHozierServiceApplication.class, args);
     }
 
+    /**
+     * Method being invoked when application is loaded. Persists data to SongRepository
+     * @param songRepository
+     * @return CommandLineRunner
+     */
     @Bean
     public CommandLineRunner loadData(SongRepository songRepository) {
         return (args) -> {

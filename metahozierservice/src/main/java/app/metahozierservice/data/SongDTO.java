@@ -1,5 +1,8 @@
 package app.metahozierservice.data;
 
+/**
+ * Class to represent song entity's required fields
+ */
 public class SongDTO {
 
     private String lyrics;

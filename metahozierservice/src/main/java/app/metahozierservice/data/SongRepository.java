@@ -12,16 +12,16 @@ import java.util.List;
 public interface SongRepository extends JpaRepository<Song, Long> {
 
     /**
-     * Method to be find songs by given album. To be used from screen impl.
+     * Method to find songs by given album.
      * @param album to be used for filtering.
-     * @return List<Song> to be sent to screen
+     * @return List<Song>
      */
     List<Song> findByAlbum(String album);
 
     /**
-     * Method to be find song by given name. To be used from screen impl.
+     * Method to be find song by given name.
      * @param name to be used for filtering.
-     * @return Song to be sent to screen
+     * @return Song
      */
     Song findByName(String name);
 
