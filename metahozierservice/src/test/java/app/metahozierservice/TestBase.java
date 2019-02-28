@@ -2,8 +2,6 @@ package app.metahozierservice;
 
 import app.metahozierservice.data.Song;
 import app.metahozierservice.data.SongRepository;
-import org.junit.After;
-import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import static app.metahozierservice.data.ConstantLyrics.*;

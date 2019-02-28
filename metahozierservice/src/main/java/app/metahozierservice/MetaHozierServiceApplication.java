@@ -29,7 +29,7 @@ public class MetaHozierServiceApplication {
      */
     @Bean
     public CommandLineRunner loadData(SongRepository songRepository) {
-        return (args) -> {
+        return args -> {
             songRepository.save(new Song(OTHER_SONGS, "Better Love", BETTER_LOVE));
             songRepository.save(new Song(ALBUM_HOZIER, "Take me to Church", TAKE_ME_TO_CHURCH));
             songRepository.save(new Song(ALBUM_HOZIER, "Cherry wine", CHERRY_WINE));

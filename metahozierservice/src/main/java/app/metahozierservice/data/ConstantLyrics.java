@@ -61,7 +61,6 @@ public abstract class ConstantLyrics {
             "That she's not around most of the time\n" +
             "\n" +
             "Way she shows me I'm hers and she is mine\n" +
-            "Open hand or closed fist would be fine\n" +
             "The blood is rare and sweet as cherry wine\n" +
             "\n" +
             "Her fight and fury is fiery\n" +
@@ -150,4 +149,6 @@ public abstract class ConstantLyrics {
             "\n" +
             "Crawling back to you\n" +
             "\n";
+
+    private ConstantLyrics() {}
 }
